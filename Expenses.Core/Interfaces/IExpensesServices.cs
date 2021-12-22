@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Expenses.Core
+namespace Expenses.Core.Interfaces
 {
     public interface IExpensesServices 
     {

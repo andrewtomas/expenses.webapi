@@ -1,10 +1,10 @@
 ﻿using Expenses.Core.DTO;
 using Microsoft.AspNetCore.Http;
-using System;
 using System.Collections.Generic;
 using System.Linq;
+using Expenses.Core.Interfaces;
 
-namespace Expenses.Core
+namespace Expenses.Core.Repositories
 {
     public class ExpensesServices : IExpensesServices
     {
@@ -55,7 +55,5 @@ namespace Expenses.Core
             .Where(e => e.User.Id == _user.Id)
             .Select(e => (Expense)e)
             .ToList();
-
-
     }
 }

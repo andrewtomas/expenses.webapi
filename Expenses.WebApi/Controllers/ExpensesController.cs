@@ -1,5 +1,6 @@
 ﻿using Expenses.Core;
 using Expenses.Core.DTO;
+using Expenses.Core.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

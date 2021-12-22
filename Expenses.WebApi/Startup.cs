@@ -11,6 +11,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Text;
+using Expenses.Core.Interfaces;
+using Expenses.Core.Repositories;
 
 namespace Expenses.WebApi
 {
